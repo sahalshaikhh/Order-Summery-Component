@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 00;
+}
+
+body {
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.main {
+  box-shadow: 0px 0px 15px #00000070;
+  overflow: hidden;
+}
+
+.main:hover .hero-img {
+  scale: 1.1;
+  transform: scale(1.1);
+}
+
+.hero-img {
+  border-radius: 12px 12px 0px 0px;
+
+  transition: all 1s ease-in-out;
+}
+.btn-payment {
+  box-shadow: 2px 4px 10px rgba(64, 64, 250, 0.668);
+}
+.btn-payment:hover {
+  background-color: blue;
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

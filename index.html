@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Order summary card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="container m-auto">
+      <div
+        class="main w-[90%] m-auto text-center bg-slate-100 flex flex-col gap-8 rounded-xl md:w-[24rem]"
+      >
+        <div class="top-img">
+          <img
+            src="./images/illustration-hero.svg"
+            alt="Hero-img"
+            class="hero-img w-full h-[140.800px]"
+          />
+        </div>
+        <div class="Order-Summery">
+          <h1 class="text-lg font-extrabold">Order Summary</h1>
+        </div>
+        <div class="para px-4 text-gray-500">
+          <p class="">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
+        <div class="Plans flex justify-between px-4">
+          <div class="Music-logo">
+            <img src="./images/icon-music.svg" alt="Music-Icon" />
+          </div>
+          <div class="Annual-plans">
+            <div class="Plan font-extrabold">Annual Plan</div>
+            <div class="price text-gray-500">$59.99/year</div>
+          </div>
+          <div
+            class="change flex justify-center items-center text-blue-800 text-sm"
+          >
+            <a
+              href="/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="font-semibold underline"
+              >Change</a
+            >
+          </div>
+        </div>
+        <div
+          class="btn-payment border border-blue-700 py-4 mx-4 rounded-lg bg-blue-700"
+        >
+          <button class="text-white font-semibold">Proceed to Payment</button>
+        </div>
+        <div class="cancle-order mb-4">
+          <p class="text-gray-500 font-semibold">Cancel Order</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
